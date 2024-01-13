@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <div>
+        <h2>Boston House Price Prediction</h2>
+    </div>
+    <div class="login">
+        <!-- Main Input For Receiving Query to our ML -->
+        <form action="{{ url_for('predict')}}" method="POST">
+            <input type="text" name="Bedroom" placeholder="Bedroom" required="required" /><br><br>
+            <input type="text" name="Bathroom" placeholder="Bathroom" required="required" /><br><br>
+            <input type="text" name="sqft_living" placeholder="living area in sqft" required="required" /><br><br>
+            <input type="text" name="sqft_lot" placeholder="lot area in sqft" required="required" /><br><br>
+            <input type="text" name="Floors" placeholder="No. of Floors" required="required" /><br><br>
+            <input type="text" name="Grade" placeholder="grade" required="required" /><br><br>
+            <input type="text" name="sqft_above" placeholder="above area in sqft" required="required" /><br><br>
+            <input type="text" name="sqft_basement" placeholder="basement area in sqft" required="required" /><br><br>
+            <input type="text" name="yr_reno" placeholder="renovated year" required="required" /><br><br>
+            <input type="text" name="pin" placeholder="Zip" required="required" /><br><br>
+            <input type="text" name="Lat" placeholder="latitude" required="required" /><br><br>
+            <input type="text" name="Lon" placeholder="Longitude" required="required" /><br>
+
+            <button type="button" class="btn">Submit</button>
+        </form>
+        <br>
+
+    </div>
+    {{prediction_text}}
+
+</body>
+
+</html>
