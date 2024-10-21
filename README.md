@@ -47,7 +47,8 @@ The dataset used in this project consists of 13 various features related to hous
 | 10  | parking           | 545 non-null   | int64   |
 | 11  | prefarea          | 545 non-null   | object  |
 | 12  | furnishingstatus  | 545 non-null   | object  |
-6 of them are integer and rest 7 are of object data type               
+
+- 6 of them are integer and rest 7 are of object data type               
 
 
 You can find the dataset in the `data` folder of this repository or download it from [Kaggle's House Prices dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
