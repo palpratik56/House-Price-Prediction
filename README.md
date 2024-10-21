@@ -30,14 +30,25 @@ The **House Price Prediction** project is a straightforward implementation of a 
 
 ## Dataset
 
-The dataset used in this project consists of various features related to house attributes, such as:
+The dataset used in this project consists of 13 various features related to house attributes, bwlow is an overview of the features
 
-- Size of the house (in square feet)
-- Number of bedrooms
-- Number of bathrooms
-- Location
-- Age of the house
-- And other relevant features
+| No. | Column            | Non-Null Count | Dtype   |
+|-----|-------------------|----------------|---------|
+| 0   | price             | 545 non-null   | int64   |
+| 1   | area              | 545 non-null   | int64   |
+| 2   | bedrooms          | 545 non-null   | int64   |
+| 3   | bathrooms         | 545 non-null   | int64   |
+| 4   | stories           | 545 non-null   | int64   |
+| 5   | mainroad          | 545 non-null   | object  |
+| 6   | guestroom         | 545 non-null   | object  |
+| 7   | basement          | 545 non-null   | object  |
+| 8   | hotwaterheating   | 545 non-null   | object  |
+| 9   | airconditioning   | 545 non-null   | object  |
+| 10  | parking           | 545 non-null   | int64   |
+| 11  | prefarea          | 545 non-null   | object  |
+| 12  | furnishingstatus  | 545 non-null   | object  |
+| **dtypes**: int64(6), object(7) |                 
+
 
 You can find the dataset in the `data` folder of this repository or download it from [Kaggle's House Prices dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
 
