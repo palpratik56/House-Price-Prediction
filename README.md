@@ -30,7 +30,7 @@ The **House Price Prediction** project is a straightforward implementation of a 
 
 ## Dataset
 
-The dataset used in this project consists of 13 various features related to house attributes, bwlow is an overview of the features
+The dataset used in this project consists of 13 various features related to house attributes, below is an overview of the features
 
 | No. | Column            | Non-Null Count | Dtype   |
 |-----|-------------------|----------------|---------|
@@ -48,7 +48,8 @@ The dataset used in this project consists of 13 various features related to hous
 | 11  | prefarea          | 545 non-null   | object  |
 | 12  | furnishingstatus  | 545 non-null   | object  |
 
-- 6 of them are integer and rest 7 are of object data type               
+- 6 of them are integer and rest 7 are of object data type
+- There are 545 records , having 0 null values              
 
 
 You can find the dataset in the `data` folder of this repository or download it from [Kaggle's House Prices dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
